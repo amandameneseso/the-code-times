@@ -12,10 +12,9 @@ React é uma biblioteca JavaScript de código aberto utilizada para construir in
 
 ### **Características**
 
-- **Baseado em Componentes:** A arquitetura é centrada em componentes. Cada componente encapsula sua própria lógica e renderização, tornando o código mais modular, reutilizável e fácil de manter. Imagine que você está construindo uma casa com peças de Lego. Cada peça é um componente reutilizável com sua própria função (uma janela, uma porta, uma parede). No React, esses "blocos de Lego" são os componentes, que podem ser combinados e aninhados para criar interfaces complexas.
-- **DOM Virtual:** O React utiliza um DOM (Document Object Model) virtual, que é uma representação na memória da estrutura da página. Quando há mudanças nos dados, o React primeiro compara o DOM virtual com o DOM real e atualiza apenas as partes que realmente mudaram, otimizando o desempenho e tornando as atualizações mais rápidas.
+- **Baseado em componentes:** A arquitetura é centrada em componentes. Cada componente encapsula sua própria lógica e renderização, tornando o código mais modular, reutilizável e fácil de manter. Imagine que você está construindo uma casa com peças de Lego. Cada peça é um componente reutilizável com sua própria função (uma janela, uma porta, uma parede). No React, esses "blocos de Lego" são os componentes, que podem ser combinados e aninhados para criar interfaces complexas.
+- **DOM virtual:** O React utiliza um DOM (Document Object Model) virtual, que é uma representação na memória da estrutura da página. Quando há mudanças nos dados, o React primeiro compara o DOM virtual com o DOM real e atualiza apenas as partes que realmente mudaram, otimizando o desempenho e tornando as atualizações mais rápidas.
 - **JSX:** O React utiliza uma extensão de sintaxe chamada JSX (JavaScript XML), que permite escrever uma estrutura semelhante ao HTML dentro do seu código JavaScript. Isso torna mais intuitivo descrever a aparência dos componentes.
-- **Grande Comunidade e Ecossistema:** O React possui uma comunidade vasta e ativa, o que significa muitos recursos de aprendizado, bibliotecas e ferramentas disponíveis para auxiliar no desenvolvimento.
 
 Agora, nosso objetivo vai ser criar um projeto com React do zero, passo a passo. Para isso, criaremos uma pasta e a abriremos com o VS Code.
 
