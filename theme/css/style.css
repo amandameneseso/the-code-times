@@ -175,6 +175,7 @@ ol {
 	background: url(../images/hr.gif) bottom left no-repeat;
 	font-size: 18px;
 	padding-bottom: 6px;
+	margin-top: 10px;
 }
 
 .blogItem h3.blogMeta {
