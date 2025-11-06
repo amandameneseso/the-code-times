@@ -1,5 +1,5 @@
 AUTHOR = 'Amanda Meneses'
-SITENAME = 'The Code Times'
+SITENAME = 'Diário de uma dev'
 SITEURL = ''
 PATH = "content"
 
