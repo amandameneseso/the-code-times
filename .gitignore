@@ -1,0 +1,8 @@
+# Ambiente virtual
+venv/
+
+# Python
+__pycache__/
+
+# Pelican
+output/
