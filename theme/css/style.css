@@ -1,13 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Slackside+One&display=swap');
+
 * { margin: 0; padding: 0; }
 dd { margin-left: 23px }
 
 /* *** General Styles *** */
 
-body  {
-	background: url(../images/background.jpg);
+/* body  {
+	background: url(../images/backgroundlacy.gif);
 	color: #293331;
 	font: 16px Georgia, "Times New Roman", Times, serif;
 	text-align: center;
+} */
+
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.30), rgba(255, 255, 255, 0.8)),
+    url(../images/backgroundlacy.gif);
+    
+    color: #293331;
+    font: 16px Georgia, "Times New Roman", Times, serif;
+    text-align: center;
 }
 
 /* pre { font-size:12px } */
@@ -65,10 +76,11 @@ ol {
 /* *** Layout *** */
 
 #container { 
-	background: url(../images/spill.gif) no-repeat top right;
+	/* background: url(../images/spill.gif) no-repeat top right; */
 	margin: 0 auto;
 	text-align: left;
 	width: 780px;
+	background-color: rgba(255, 253, 250);
 } 
 
 #header { 
@@ -91,7 +103,7 @@ ol {
 
 #mainContent {
 	background: url(../images/body.gif) repeat-y;
-	padding: 20px 250px 10px 40px;
+	padding: 20px 36px 10px 40px;
 } 
 
 #footer { 
@@ -106,7 +118,8 @@ ol {
 #header h1 {
 	font-size: 48px;
 	font-weight: normal;
-	padding: 20px 0 0 170px;
+	padding: 20px 0 0 230px;
+	font-family: "Slackside One", cursive;
 }
 
 #header h2 {
@@ -185,6 +198,8 @@ ol {
 
 #sidebar ul a {
 	text-decoration: none;
+	font-family: "Slackside One", cursive;
+	font-size: 19px;
 }
 
 /* *** Comments Styles *** */
