@@ -15,7 +15,7 @@ dd { margin-left: 23px }
 body {
     background-image: linear-gradient(rgba(255, 255, 255, 0.30), rgba(255, 255, 255, 0)),
     url(../images/backgroundlacy.gif);
-    
+    background-attachment: fixed;
     color: #293331;
     font: 16px Georgia, "Times New Roman", Times, serif;
     text-align: center;
